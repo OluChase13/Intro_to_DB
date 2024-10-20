@@ -1,6 +1,5 @@
 import mysql.connector
 
-# Replace with your connection details
 mydb = mysql.connector.connect(
     host="localhost",
     user="yourusername",
@@ -8,6 +7,9 @@ mydb = mysql.connector.connect(
     database="yourdatabase"
 )
 
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+
+USE alx_book_store;
 
 
 SHOW TABLES;
