@@ -28,8 +28,8 @@ CREATE TABLE Books (
 
 CREATE TABLE Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    customer_name VARCHAR(214) NOT NULL,
-    email VARCHAR(214) NOT NULL,
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) NOT NULL,
     address TEXT
 );
 
